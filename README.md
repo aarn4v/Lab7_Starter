@@ -1,3 +1,5 @@
+## Aarnav Gujjari - A19127921
+
 # 1.  Where would you fit your automated tests in your Recipe project development pipeline? Select one of the following and explain why.
 
 ## I would run it within a Github action that runs whenever code is pushed because this way the code is continuously being tested while being developed. If you only test locally, you don't know how your code will fare when running with the rest of the system with logic and dependecy discrepencies. If you just test everything at the end, then it will be very messy to debug. The best approach is to test often during development using Github Action so that faulty code will never even get merged to the main branch.
